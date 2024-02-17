@@ -11,8 +11,7 @@ Brute Force Key Generator: This script systematically generates all possible see
 
 Both scripts output the results into a CSV file with two columns: Seed and Key. This file can be instrumental in analyzing the pattern or logic behind the DLL's algorithm for generating keys from seeds.
 
-Usage
-Before running the scripts, ensure you have Python installed on your system and the required DLL file placed in an accessible location.
+
 
 Random Key Generator:
 
@@ -24,13 +23,13 @@ Brute Force Key Generator:
 python bruteforce.py
 
 
-Output
 
 The scripts generate a CSV file named seed_key_pairs.csv, containing two columns:
 
 Seed: The seed value used to generate the key.
 Key: The key generated from the corresponding seed.
 This CSV file can aid in identifying the algorithm used within the DLL by providing a dataset that may reveal patterns or directly reflect the algorithm's logic. It's particularly useful for feeding into AI models designed to reverse-engineer such algorithms.
+
 
 Note
 These tools are intended for educational and research purposes to improve security measures and understand automotive protocols. Use them responsibly and ethically according to your local laws and guidelines.
