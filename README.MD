@@ -1,4 +1,5 @@
 Seed & Key Reverse Engineering Tool
+
 This project consists of two separate Python scripts designed for reverse engineering of seed & key DLL files following the ASAM MCD-2 MC (ASAP2) standard and the Communication Control Protocol (CCP). The main purpose of these tools is to facilitate the discovery of the algorithms used within a DLL to generate keys from seeds, which can be particularly useful for automotive security research or as input for AI-driven analysis.
 
 Overview
@@ -15,15 +16,15 @@ Before running the scripts, ensure you have Python installed on your system and 
 
 Random Key Generator:
 
-bash
-Copy code
 python random_generator.py
-Brute Force Key Generator:
 
-bash
-Copy code
+
+Brute Force Key Generator:
 python bruteforce.py
+
+
 Output
+
 The scripts generate a CSV file named seed_key_pairs.csv, containing two columns:
 
 Seed: The seed value used to generate the key.
